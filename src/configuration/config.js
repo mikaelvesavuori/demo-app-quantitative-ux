@@ -1,4 +1,4 @@
-const IF_EXTRAS_ENABLED = false;
+const IF_EXTRAS_ENABLED = true;
 const SPLIT_IO_KEY = 'key';
 const MINIMUM_VIEW_COUNT_BEFORE_INCENTIVE = 3;
 

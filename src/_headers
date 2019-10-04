@@ -1,0 +1,12 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  X-UA-Compatible: IE=edge,chrome=1
+  Cache-Control: max-age=31536000, immutable, public
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Vary: Accept-Encoding
+  Referrer-Policy: no-referrer
+
+	Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' https://cdn.split.io https://optimize.google.com https://www.google-analytics.com/ https://www.googletagmanager.com/ https://storage.googleapis.com/ https://cdn.polyfill.io/; style-src 'self' 'unsafe-inline' https://optimize.google.com https://fonts.googleapis.com; img-src 'self' https://optimize.google.com https://www.google-analytics.com data: https:; font-src 'self' https://fonts.gstatic.com https:; media-src 'self' https:; manifest-src 'self'; worker-src 'self' ; connect-src 'self' https:; object-src 'none'; frame-src 'self' https://optimize.google.com https:; child-src 'self' https:; frame-ancestors 'none'; form-action 'none'; block-all-mixed-content; base-uri 'self' https://optimize.google.com/;
+	Feature-Policy: geolocation 'self'; midi 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'self'; payment 'none';
